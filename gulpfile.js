@@ -70,7 +70,7 @@ gulp.task("server", function() {
 
 	/* Watch */
 	gulp.watch("./src/scss/**/*.scss", ['sass']);
-	gulp.watch("./src/components/bootstrap/scss/**/*.scss", ['sass']);
+	gulp.watch("./node_modules/bootstrap/scss/**/*.scss", ['sass']);
 	gulp.watch("./src/js/**/*.js", ['js']);
 	gulp.watch("./src/index.html", ['html']);
 });
